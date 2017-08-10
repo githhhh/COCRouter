@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'COCRouter_Example' do
+  pod 'COCRouter', :path => '../'
+
+  target 'COCRouter_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
