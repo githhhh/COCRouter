@@ -14,8 +14,6 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* COCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* COCAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* COCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* COCViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +22,44 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8B2C9B5B1F3C681800578AC6 /* cocerConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C9B5A1F3C681700578AC6 /* cocerConfig.plist */; };
+		8B3B4EB31F3C5FFA006AE564 /* COCParserWare.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4E961F3C5FFA006AE564 /* COCParserWare.m */; };
+		8B3B4EB41F3C5FFA006AE564 /* COCResponderWare.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4E981F3C5FFA006AE564 /* COCResponderWare.m */; };
+		8B3B4EB51F3C5FFA006AE564 /* COCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4E9A1F3C5FFA006AE564 /* COCRouter.m */; };
+		8B3B4EB61F3C5FFA006AE564 /* COCRouter+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4E9C1F3C5FFA006AE564 /* COCRouter+Navigation.m */; };
+		8B3B4EB71F3C5FFA006AE564 /* COCRoutingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4E9E1F3C5FFA006AE564 /* COCRoutingCache.m */; };
+		8B3B4EB81F3C5FFA006AE564 /* COCRoutingContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EA01F3C5FFA006AE564 /* COCRoutingContext.m */; };
+		8B3B4EB91F3C5FFA006AE564 /* COCRoutingFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EA21F3C5FFA006AE564 /* COCRoutingFilter.m */; };
+		8B3B4EBA1F3C5FFA006AE564 /* COCRoutingPipeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EA61F3C5FFA006AE564 /* COCRoutingPipeline.m */; };
+		8B3B4EBB1F3C5FFA006AE564 /* COCRoutingWare.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EA81F3C5FFA006AE564 /* COCRoutingWare.m */; };
+		8B3B4EBC1F3C5FFA006AE564 /* COCRoutingWare+Module.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EAA1F3C5FFA006AE564 /* COCRoutingWare+Module.m */; };
+		8B3B4EBD1F3C5FFA006AE564 /* COCRoutingWare+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EAC1F3C5FFA006AE564 /* COCRoutingWare+Navigation.m */; };
+		8B3B4EBE1F3C5FFA006AE564 /* ModuleTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EAE1F3C5FFA006AE564 /* ModuleTestCase.m */; };
+		8B3B4EBF1F3C5FFA006AE564 /* NSString+HandleUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EB01F3C5FFA006AE564 /* NSString+HandleUrl.m */; };
+		8B3B4EC01F3C5FFA006AE564 /* UIViewController+TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EB21F3C5FFA006AE564 /* UIViewController+TopViewController.m */; };
+		8B3B4EC41F3C60E0006AE564 /* COCRouter+Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EC31F3C60E0006AE564 /* COCRouter+Order.m */; };
+		8B3B4EC81F3C60FA006AE564 /* COCRouter+ComponentUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EC71F3C60FA006AE564 /* COCRouter+ComponentUI.m */; };
+		8B3B4EDE1F3C6195006AE564 /* BaseComponentUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4ECE1F3C6195006AE564 /* BaseComponentUIController.m */; };
+		8B3B4EDF1F3C6195006AE564 /* httpsConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B4ED01F3C6195006AE564 /* httpsConfig.plist */; };
+		8B3B4EE01F3C6195006AE564 /* HttpsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4ED21F3C6195006AE564 /* HttpsController.m */; };
+		8B3B4EE11F3C6195006AE564 /* lastdiscountConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B4ED41F3C6195006AE564 /* lastdiscountConfig.plist */; };
+		8B3B4EE21F3C6195006AE564 /* LastdiscountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4ED61F3C6195006AE564 /* LastdiscountController.m */; };
+		8B3B4EE31F3C6195006AE564 /* OrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4ED91F3C6195006AE564 /* OrderController.m */; };
+		8B3B4F071F3C61E8006AE564 /* ForwardModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EE81F3C61E8006AE564 /* ForwardModuleViewController.m */; };
+		8B3B4F081F3C61E8006AE564 /* GlobalFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EEA1F3C61E8006AE564 /* GlobalFilterViewController.m */; };
+		8B3B4F091F3C61E8006AE564 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EEC1F3C61E8006AE564 /* LoginViewController.m */; };
+		8B3B4F0A1F3C61E8006AE564 /* ComponentUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EEF1F3C61E8006AE564 /* ComponentUIController.m */; };
+		8B3B4F0C1F3C61E8006AE564 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EF31F3C61E8006AE564 /* NavigationViewController.m */; };
+		8B3B4F0D1F3C61E8006AE564 /* OrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EF51F3C61E8006AE564 /* OrderDetailViewController.m */; };
+		8B3B4F0E1F3C61E8006AE564 /* COCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EF71F3C61E8006AE564 /* COCAppDelegate.m */; };
+		8B3B4F0F1F3C61E8006AE564 /* COCLoginState.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EF91F3C61E8006AE564 /* COCLoginState.m */; };
+		8B3B4F101F3C61E8006AE564 /* COCNavigatorMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EFB1F3C61E8006AE564 /* COCNavigatorMap.m */; };
+		8B3B4F111F3C61E8006AE564 /* COCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EFD1F3C61E8006AE564 /* COCViewController.m */; };
+		8B3B4F121F3C61E8006AE564 /* RouterCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4EFF1F3C61E8006AE564 /* RouterCategoryViewController.m */; };
+		8B3B4F131F3C61E8006AE564 /* RouteFilterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4F021F3C61E8006AE564 /* RouteFilterHandler.m */; };
+		8B3B4F141F3C61E8006AE564 /* UIViewController+DeallocLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4F041F3C61E8006AE564 /* UIViewController+DeallocLog.m */; };
+		8B3B4F151F3C61E8006AE564 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4F061F3C61E8006AE564 /* UserInfoViewController.m */; };
+		8B3B4F191F3C6768006AE564 /* CocerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4F181F3C6768006AE564 /* CocerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +84,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* COCRouter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "COCRouter-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* COCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COCAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* COCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COCAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* COCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COCViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* COCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COCViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* COCRouter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COCRouter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,11 +93,86 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79256A69D61B8D1F5B2F454C /* Pods-COCRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COCRouter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-COCRouter_Tests/Pods-COCRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8405A521D0FBF9CE161BBC1C /* COCRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = COCRouter.podspec; path = ../COCRouter.podspec; sourceTree = "<group>"; };
+		8405A521D0FBF9CE161BBC1C /* COCRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = COCRouter.podspec; path = ../COCRouter.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		88F13626A77BC137FD728D6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		88F13626A77BC137FD728D6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8B2C9B5A1F3C681700578AC6 /* cocerConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cocerConfig.plist; sourceTree = "<group>"; };
+		8B3B4E951F3C5FFA006AE564 /* COCParserWare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COCParserWare.h; path = ../../COCRouter/Classes/COCParserWare.h; sourceTree = "<group>"; };
+		8B3B4E961F3C5FFA006AE564 /* COCParserWare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = COCParserWare.m; path = ../../COCRouter/Classes/COCParserWare.m; sourceTree = "<group>"; };
+		8B3B4E971F3C5FFA006AE564 /* COCResponderWare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COCResponderWare.h; path = ../../COCRouter/Classes/COCResponderWare.h; sourceTree = "<group>"; };
+		8B3B4E981F3C5FFA006AE564 /* COCResponderWare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = COCResponderWare.m; path = ../../COCRouter/Classes/COCResponderWare.m; sourceTree = "<group>"; };
+		8B3B4E991F3C5FFA006AE564 /* COCRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COCRouter.h; path = ../../COCRouter/Classes/COCRouter.h; sourceTree = "<group>"; };
+		8B3B4E9A1F3C5FFA006AE564 /* COCRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = COCRouter.m; path = ../../COCRouter/Classes/COCRouter.m; sourceTree = "<group>"; };
+		8B3B4E9B1F3C5FFA006AE564 /* COCRouter+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "COCRouter+Navigation.h"; path = "../../COCRouter/Classes/COCRouter+Navigation.h"; sourceTree = "<group>"; };
+		8B3B4E9C1F3C5FFA006AE564 /* COCRouter+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "COCRouter+Navigation.m"; path = "../../COCRouter/Classes/COCRouter+Navigation.m"; sourceTree = "<group>"; };
+		8B3B4E9D1F3C5FFA006AE564 /* COCRoutingCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COCRoutingCache.h; path = ../../COCRouter/Classes/COCRoutingCache.h; sourceTree = "<group>"; };
+		8B3B4E9E1F3C5FFA006AE564 /* COCRoutingCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = COCRoutingCache.m; path = ../../COCRouter/Classes/COCRoutingCache.m; sourceTree = "<group>"; };
+		8B3B4E9F1F3C5FFA006AE564 /* COCRoutingContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COCRoutingContext.h; path = ../../COCRouter/Classes/COCRoutingContext.h; sourceTree = "<group>"; };
+		8B3B4EA01F3C5FFA006AE564 /* COCRoutingContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = COCRoutingContext.m; path = ../../COCRouter/Classes/COCRoutingContext.m; sourceTree = "<group>"; };
+		8B3B4EA11F3C5FFA006AE564 /* COCRoutingFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COCRoutingFilter.h; path = ../../COCRouter/Classes/COCRoutingFilter.h; sourceTree = "<group>"; };
+		8B3B4EA21F3C5FFA006AE564 /* COCRoutingFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = COCRoutingFilter.m; path = ../../COCRouter/Classes/COCRoutingFilter.m; sourceTree = "<group>"; };
+		8B3B4EA31F3C5FFA006AE564 /* COCRoutingFilterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COCRoutingFilterProtocol.h; path = ../../COCRouter/Classes/COCRoutingFilterProtocol.h; sourceTree = "<group>"; };
+		8B3B4EA41F3C5FFA006AE564 /* COCRoutingMiddleWareProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COCRoutingMiddleWareProtocol.h; path = ../../COCRouter/Classes/COCRoutingMiddleWareProtocol.h; sourceTree = "<group>"; };
+		8B3B4EA51F3C5FFA006AE564 /* COCRoutingPipeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COCRoutingPipeline.h; path = ../../COCRouter/Classes/COCRoutingPipeline.h; sourceTree = "<group>"; };
+		8B3B4EA61F3C5FFA006AE564 /* COCRoutingPipeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = COCRoutingPipeline.m; path = ../../COCRouter/Classes/COCRoutingPipeline.m; sourceTree = "<group>"; };
+		8B3B4EA71F3C5FFA006AE564 /* COCRoutingWare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COCRoutingWare.h; path = ../../COCRouter/Classes/COCRoutingWare.h; sourceTree = "<group>"; };
+		8B3B4EA81F3C5FFA006AE564 /* COCRoutingWare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = COCRoutingWare.m; path = ../../COCRouter/Classes/COCRoutingWare.m; sourceTree = "<group>"; };
+		8B3B4EA91F3C5FFA006AE564 /* COCRoutingWare+Module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "COCRoutingWare+Module.h"; path = "../../COCRouter/Classes/COCRoutingWare+Module.h"; sourceTree = "<group>"; };
+		8B3B4EAA1F3C5FFA006AE564 /* COCRoutingWare+Module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "COCRoutingWare+Module.m"; path = "../../COCRouter/Classes/COCRoutingWare+Module.m"; sourceTree = "<group>"; };
+		8B3B4EAB1F3C5FFA006AE564 /* COCRoutingWare+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "COCRoutingWare+Navigation.h"; path = "../../COCRouter/Classes/COCRoutingWare+Navigation.h"; sourceTree = "<group>"; };
+		8B3B4EAC1F3C5FFA006AE564 /* COCRoutingWare+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "COCRoutingWare+Navigation.m"; path = "../../COCRouter/Classes/COCRoutingWare+Navigation.m"; sourceTree = "<group>"; };
+		8B3B4EAD1F3C5FFA006AE564 /* ModuleTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModuleTestCase.h; path = ../../COCRouter/Classes/ModuleTestCase.h; sourceTree = "<group>"; };
+		8B3B4EAE1F3C5FFA006AE564 /* ModuleTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModuleTestCase.m; path = ../../COCRouter/Classes/ModuleTestCase.m; sourceTree = "<group>"; };
+		8B3B4EAF1F3C5FFA006AE564 /* NSString+HandleUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+HandleUrl.h"; path = "../../COCRouter/Classes/NSString+HandleUrl.h"; sourceTree = "<group>"; };
+		8B3B4EB01F3C5FFA006AE564 /* NSString+HandleUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+HandleUrl.m"; path = "../../COCRouter/Classes/NSString+HandleUrl.m"; sourceTree = "<group>"; };
+		8B3B4EB11F3C5FFA006AE564 /* UIViewController+TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TopViewController.h"; path = "../../COCRouter/Classes/UIViewController+TopViewController.h"; sourceTree = "<group>"; };
+		8B3B4EB21F3C5FFA006AE564 /* UIViewController+TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TopViewController.m"; path = "../../COCRouter/Classes/UIViewController+TopViewController.m"; sourceTree = "<group>"; };
+		8B3B4EC21F3C60E0006AE564 /* COCRouter+Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "COCRouter+Order.h"; sourceTree = "<group>"; };
+		8B3B4EC31F3C60E0006AE564 /* COCRouter+Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "COCRouter+Order.m"; sourceTree = "<group>"; };
+		8B3B4EC61F3C60FA006AE564 /* COCRouter+ComponentUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "COCRouter+ComponentUI.h"; sourceTree = "<group>"; };
+		8B3B4EC71F3C60FA006AE564 /* COCRouter+ComponentUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "COCRouter+ComponentUI.m"; sourceTree = "<group>"; };
+		8B3B4ECD1F3C6195006AE564 /* BaseComponentUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseComponentUIController.h; sourceTree = "<group>"; };
+		8B3B4ECE1F3C6195006AE564 /* BaseComponentUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseComponentUIController.m; sourceTree = "<group>"; };
+		8B3B4ED01F3C6195006AE564 /* httpsConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = httpsConfig.plist; sourceTree = "<group>"; };
+		8B3B4ED11F3C6195006AE564 /* HttpsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpsController.h; sourceTree = "<group>"; };
+		8B3B4ED21F3C6195006AE564 /* HttpsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpsController.m; sourceTree = "<group>"; };
+		8B3B4ED41F3C6195006AE564 /* lastdiscountConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lastdiscountConfig.plist; sourceTree = "<group>"; };
+		8B3B4ED51F3C6195006AE564 /* LastdiscountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastdiscountController.h; sourceTree = "<group>"; };
+		8B3B4ED61F3C6195006AE564 /* LastdiscountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastdiscountController.m; sourceTree = "<group>"; };
+		8B3B4ED81F3C6195006AE564 /* OrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderController.h; sourceTree = "<group>"; };
+		8B3B4ED91F3C6195006AE564 /* OrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderController.m; sourceTree = "<group>"; };
+		8B3B4EE71F3C61E8006AE564 /* ForwardModuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardModuleViewController.h; sourceTree = "<group>"; };
+		8B3B4EE81F3C61E8006AE564 /* ForwardModuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardModuleViewController.m; sourceTree = "<group>"; };
+		8B3B4EE91F3C61E8006AE564 /* GlobalFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalFilterViewController.h; sourceTree = "<group>"; };
+		8B3B4EEA1F3C61E8006AE564 /* GlobalFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalFilterViewController.m; sourceTree = "<group>"; };
+		8B3B4EEB1F3C61E8006AE564 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8B3B4EEC1F3C61E8006AE564 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8B3B4EEE1F3C61E8006AE564 /* ComponentUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentUIController.h; sourceTree = "<group>"; };
+		8B3B4EEF1F3C61E8006AE564 /* ComponentUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentUIController.m; sourceTree = "<group>"; };
+		8B3B4EF21F3C61E8006AE564 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		8B3B4EF31F3C61E8006AE564 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		8B3B4EF41F3C61E8006AE564 /* OrderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailViewController.h; sourceTree = "<group>"; };
+		8B3B4EF51F3C61E8006AE564 /* OrderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailViewController.m; sourceTree = "<group>"; };
+		8B3B4EF61F3C61E8006AE564 /* COCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COCAppDelegate.h; sourceTree = "<group>"; };
+		8B3B4EF71F3C61E8006AE564 /* COCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COCAppDelegate.m; sourceTree = "<group>"; };
+		8B3B4EF81F3C61E8006AE564 /* COCLoginState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COCLoginState.h; sourceTree = "<group>"; };
+		8B3B4EF91F3C61E8006AE564 /* COCLoginState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COCLoginState.m; sourceTree = "<group>"; };
+		8B3B4EFA1F3C61E8006AE564 /* COCNavigatorMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COCNavigatorMap.h; sourceTree = "<group>"; };
+		8B3B4EFB1F3C61E8006AE564 /* COCNavigatorMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COCNavigatorMap.m; sourceTree = "<group>"; };
+		8B3B4EFC1F3C61E8006AE564 /* COCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COCViewController.h; sourceTree = "<group>"; };
+		8B3B4EFD1F3C61E8006AE564 /* COCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COCViewController.m; sourceTree = "<group>"; };
+		8B3B4EFE1F3C61E8006AE564 /* RouterCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterCategoryViewController.h; sourceTree = "<group>"; };
+		8B3B4EFF1F3C61E8006AE564 /* RouterCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterCategoryViewController.m; sourceTree = "<group>"; };
+		8B3B4F011F3C61E8006AE564 /* RouteFilterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteFilterHandler.h; sourceTree = "<group>"; };
+		8B3B4F021F3C61E8006AE564 /* RouteFilterHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteFilterHandler.m; sourceTree = "<group>"; };
+		8B3B4F031F3C61E8006AE564 /* UIViewController+DeallocLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DeallocLog.h"; sourceTree = "<group>"; };
+		8B3B4F041F3C61E8006AE564 /* UIViewController+DeallocLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DeallocLog.m"; sourceTree = "<group>"; };
+		8B3B4F051F3C61E8006AE564 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		8B3B4F061F3C61E8006AE564 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		8B3B4F171F3C6768006AE564 /* CocerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocerController.h; sourceTree = "<group>"; };
+		8B3B4F181F3C6768006AE564 /* CocerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocerController.m; sourceTree = "<group>"; };
 		B1CAD3BFFD44C94BDCA64AEE /* Pods-COCRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COCRouter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-COCRouter_Tests/Pods-COCRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D0815F62BFF075105C0C7A29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D0815F62BFF075105C0C7A29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DE59350FFC025952D98C71A5 /* Pods_COCRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COCRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -143,11 +250,11 @@
 		6003F593195388D20070C39A /* Example for COCRouter */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* COCAppDelegate.h */,
-				6003F59D195388D20070C39A /* COCAppDelegate.m */,
+				8B3B4EE61F3C61E8006AE564 /* Demo */,
+				8B3B4ECB1F3C6195006AE564 /* Modules */,
+				8B3B4EC11F3C60B3006AE564 /* 路由扩展--单独pod */,
+				8B3B4E5A1F3C5B36006AE564 /* Classes */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* COCViewController.h */,
-				6003F5A6195388D20070C39A /* COCViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -194,6 +301,166 @@
 				88F13626A77BC137FD728D6A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8B3B4E5A1F3C5B36006AE564 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B4E991F3C5FFA006AE564 /* COCRouter.h */,
+				8B3B4E9A1F3C5FFA006AE564 /* COCRouter.m */,
+				8B3B4E9B1F3C5FFA006AE564 /* COCRouter+Navigation.h */,
+				8B3B4E9C1F3C5FFA006AE564 /* COCRouter+Navigation.m */,
+				8B3B4EA31F3C5FFA006AE564 /* COCRoutingFilterProtocol.h */,
+				8B3B4EA41F3C5FFA006AE564 /* COCRoutingMiddleWareProtocol.h */,
+				8B3B4EA51F3C5FFA006AE564 /* COCRoutingPipeline.h */,
+				8B3B4EA61F3C5FFA006AE564 /* COCRoutingPipeline.m */,
+				8B3B4E951F3C5FFA006AE564 /* COCParserWare.h */,
+				8B3B4E961F3C5FFA006AE564 /* COCParserWare.m */,
+				8B3B4EA71F3C5FFA006AE564 /* COCRoutingWare.h */,
+				8B3B4EA81F3C5FFA006AE564 /* COCRoutingWare.m */,
+				8B3B4EA91F3C5FFA006AE564 /* COCRoutingWare+Module.h */,
+				8B3B4EAA1F3C5FFA006AE564 /* COCRoutingWare+Module.m */,
+				8B3B4EAB1F3C5FFA006AE564 /* COCRoutingWare+Navigation.h */,
+				8B3B4EAC1F3C5FFA006AE564 /* COCRoutingWare+Navigation.m */,
+				8B3B4EA11F3C5FFA006AE564 /* COCRoutingFilter.h */,
+				8B3B4EA21F3C5FFA006AE564 /* COCRoutingFilter.m */,
+				8B3B4E971F3C5FFA006AE564 /* COCResponderWare.h */,
+				8B3B4E981F3C5FFA006AE564 /* COCResponderWare.m */,
+				8B3B4E9F1F3C5FFA006AE564 /* COCRoutingContext.h */,
+				8B3B4EA01F3C5FFA006AE564 /* COCRoutingContext.m */,
+				8B3B4E9D1F3C5FFA006AE564 /* COCRoutingCache.h */,
+				8B3B4E9E1F3C5FFA006AE564 /* COCRoutingCache.m */,
+				8B3B4EAD1F3C5FFA006AE564 /* ModuleTestCase.h */,
+				8B3B4EAE1F3C5FFA006AE564 /* ModuleTestCase.m */,
+				8B3B4EAF1F3C5FFA006AE564 /* NSString+HandleUrl.h */,
+				8B3B4EB01F3C5FFA006AE564 /* NSString+HandleUrl.m */,
+				8B3B4EB11F3C5FFA006AE564 /* UIViewController+TopViewController.h */,
+				8B3B4EB21F3C5FFA006AE564 /* UIViewController+TopViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8B3B4EC11F3C60B3006AE564 /* 路由扩展--单独pod */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B4EC21F3C60E0006AE564 /* COCRouter+Order.h */,
+				8B3B4EC31F3C60E0006AE564 /* COCRouter+Order.m */,
+				8B3B4EC61F3C60FA006AE564 /* COCRouter+ComponentUI.h */,
+				8B3B4EC71F3C60FA006AE564 /* COCRouter+ComponentUI.m */,
+			);
+			name = "路由扩展--单独pod";
+			sourceTree = "<group>";
+		};
+		8B3B4ECB1F3C6195006AE564 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B4F161F3C674B006AE564 /* cocer */,
+				8B3B4ECC1F3C6195006AE564 /* componentUI */,
+				8B3B4ECF1F3C6195006AE564 /* https */,
+				8B3B4ED31F3C6195006AE564 /* lastdiscount */,
+				8B3B4ED71F3C6195006AE564 /* order */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8B3B4ECC1F3C6195006AE564 /* componentUI */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B4ECD1F3C6195006AE564 /* BaseComponentUIController.h */,
+				8B3B4ECE1F3C6195006AE564 /* BaseComponentUIController.m */,
+			);
+			path = componentUI;
+			sourceTree = "<group>";
+		};
+		8B3B4ECF1F3C6195006AE564 /* https */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B4ED01F3C6195006AE564 /* httpsConfig.plist */,
+				8B3B4ED11F3C6195006AE564 /* HttpsController.h */,
+				8B3B4ED21F3C6195006AE564 /* HttpsController.m */,
+			);
+			path = https;
+			sourceTree = "<group>";
+		};
+		8B3B4ED31F3C6195006AE564 /* lastdiscount */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B4ED41F3C6195006AE564 /* lastdiscountConfig.plist */,
+				8B3B4ED51F3C6195006AE564 /* LastdiscountController.h */,
+				8B3B4ED61F3C6195006AE564 /* LastdiscountController.m */,
+			);
+			name = lastdiscount;
+			path = lastminute;
+			sourceTree = "<group>";
+		};
+		8B3B4ED71F3C6195006AE564 /* order */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B4ED81F3C6195006AE564 /* OrderController.h */,
+				8B3B4ED91F3C6195006AE564 /* OrderController.m */,
+			);
+			path = order;
+			sourceTree = "<group>";
+		};
+		8B3B4EE61F3C61E8006AE564 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B4F001F3C61E8006AE564 /* RouterFilter */,
+				8B3B4EED1F3C61E8006AE564 /* ModuleOverride */,
+				8B3B4EE71F3C61E8006AE564 /* ForwardModuleViewController.h */,
+				8B3B4EE81F3C61E8006AE564 /* ForwardModuleViewController.m */,
+				8B3B4EF21F3C61E8006AE564 /* NavigationViewController.h */,
+				8B3B4EF31F3C61E8006AE564 /* NavigationViewController.m */,
+				8B3B4EFE1F3C61E8006AE564 /* RouterCategoryViewController.h */,
+				8B3B4EFF1F3C61E8006AE564 /* RouterCategoryViewController.m */,
+				8B3B4EE91F3C61E8006AE564 /* GlobalFilterViewController.h */,
+				8B3B4EEA1F3C61E8006AE564 /* GlobalFilterViewController.m */,
+				8B3B4EEB1F3C61E8006AE564 /* LoginViewController.h */,
+				8B3B4EEC1F3C61E8006AE564 /* LoginViewController.m */,
+				8B3B4EF41F3C61E8006AE564 /* OrderDetailViewController.h */,
+				8B3B4EF51F3C61E8006AE564 /* OrderDetailViewController.m */,
+				8B3B4EF61F3C61E8006AE564 /* COCAppDelegate.h */,
+				8B3B4EF71F3C61E8006AE564 /* COCAppDelegate.m */,
+				8B3B4EF81F3C61E8006AE564 /* COCLoginState.h */,
+				8B3B4EF91F3C61E8006AE564 /* COCLoginState.m */,
+				8B3B4EFA1F3C61E8006AE564 /* COCNavigatorMap.h */,
+				8B3B4EFB1F3C61E8006AE564 /* COCNavigatorMap.m */,
+				8B3B4EFC1F3C61E8006AE564 /* COCViewController.h */,
+				8B3B4EFD1F3C61E8006AE564 /* COCViewController.m */,
+				8B3B4F031F3C61E8006AE564 /* UIViewController+DeallocLog.h */,
+				8B3B4F041F3C61E8006AE564 /* UIViewController+DeallocLog.m */,
+				8B3B4F051F3C61E8006AE564 /* UserInfoViewController.h */,
+				8B3B4F061F3C61E8006AE564 /* UserInfoViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		8B3B4EED1F3C61E8006AE564 /* ModuleOverride */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B4EEE1F3C61E8006AE564 /* ComponentUIController.h */,
+				8B3B4EEF1F3C61E8006AE564 /* ComponentUIController.m */,
+			);
+			path = ModuleOverride;
+			sourceTree = "<group>";
+		};
+		8B3B4F001F3C61E8006AE564 /* RouterFilter */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B4F011F3C61E8006AE564 /* RouteFilterHandler.h */,
+				8B3B4F021F3C61E8006AE564 /* RouteFilterHandler.m */,
+			);
+			path = RouterFilter;
+			sourceTree = "<group>";
+		};
+		8B3B4F161F3C674B006AE564 /* cocer */ = {
+			isa = PBXGroup;
+			children = (
+				8B2C9B5A1F3C681700578AC6 /* cocerConfig.plist */,
+				8B3B4F171F3C6768006AE564 /* CocerController.h */,
+				8B3B4F181F3C6768006AE564 /* CocerController.m */,
+			);
+			name = cocer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +548,10 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				8B3B4EE11F3C6195006AE564 /* lastdiscountConfig.plist in Resources */,
+				8B2C9B5B1F3C681800578AC6 /* cocerConfig.plist in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				8B3B4EDF1F3C6195006AE564 /* httpsConfig.plist in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,9 +664,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* COCAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* COCViewController.m in Sources */,
+				8B3B4EB61F3C5FFA006AE564 /* COCRouter+Navigation.m in Sources */,
+				8B3B4EC41F3C60E0006AE564 /* COCRouter+Order.m in Sources */,
+				8B3B4F0C1F3C61E8006AE564 /* NavigationViewController.m in Sources */,
+				8B3B4EDE1F3C6195006AE564 /* BaseComponentUIController.m in Sources */,
+				8B3B4F141F3C61E8006AE564 /* UIViewController+DeallocLog.m in Sources */,
+				8B3B4F151F3C61E8006AE564 /* UserInfoViewController.m in Sources */,
+				8B3B4F101F3C61E8006AE564 /* COCNavigatorMap.m in Sources */,
+				8B3B4F0F1F3C61E8006AE564 /* COCLoginState.m in Sources */,
+				8B3B4EBF1F3C5FFA006AE564 /* NSString+HandleUrl.m in Sources */,
+				8B3B4F121F3C61E8006AE564 /* RouterCategoryViewController.m in Sources */,
+				8B3B4F091F3C61E8006AE564 /* LoginViewController.m in Sources */,
+				8B3B4EE01F3C6195006AE564 /* HttpsController.m in Sources */,
+				8B3B4EB91F3C5FFA006AE564 /* COCRoutingFilter.m in Sources */,
+				8B3B4EE21F3C6195006AE564 /* LastdiscountController.m in Sources */,
+				8B3B4EBB1F3C5FFA006AE564 /* COCRoutingWare.m in Sources */,
+				8B3B4EB51F3C5FFA006AE564 /* COCRouter.m in Sources */,
+				8B3B4EB41F3C5FFA006AE564 /* COCResponderWare.m in Sources */,
+				8B3B4F081F3C61E8006AE564 /* GlobalFilterViewController.m in Sources */,
+				8B3B4F0E1F3C61E8006AE564 /* COCAppDelegate.m in Sources */,
+				8B3B4F191F3C6768006AE564 /* CocerController.m in Sources */,
+				8B3B4EB81F3C5FFA006AE564 /* COCRoutingContext.m in Sources */,
+				8B3B4EBA1F3C5FFA006AE564 /* COCRoutingPipeline.m in Sources */,
+				8B3B4EB71F3C5FFA006AE564 /* COCRoutingCache.m in Sources */,
+				8B3B4EBC1F3C5FFA006AE564 /* COCRoutingWare+Module.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8B3B4EB31F3C5FFA006AE564 /* COCParserWare.m in Sources */,
+				8B3B4EE31F3C6195006AE564 /* OrderController.m in Sources */,
+				8B3B4F111F3C61E8006AE564 /* COCViewController.m in Sources */,
+				8B3B4F0D1F3C61E8006AE564 /* OrderDetailViewController.m in Sources */,
+				8B3B4EC81F3C60FA006AE564 /* COCRouter+ComponentUI.m in Sources */,
+				8B3B4F071F3C61E8006AE564 /* ForwardModuleViewController.m in Sources */,
+				8B3B4F131F3C61E8006AE564 /* RouteFilterHandler.m in Sources */,
+				8B3B4EC01F3C5FFA006AE564 /* UIViewController+TopViewController.m in Sources */,
+				8B3B4EBE1F3C5FFA006AE564 /* ModuleTestCase.m in Sources */,
+				8B3B4EBD1F3C5FFA006AE564 /* COCRoutingWare+Navigation.m in Sources */,
+				8B3B4F0A1F3C61E8006AE564 /* ComponentUIController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

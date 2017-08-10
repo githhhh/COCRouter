@@ -2,8 +2,8 @@
 //  COCViewController.h
 //  COCRouter
 //
-//  Created by githhhh on 08/10/2017.
-//  Copyright (c) 2017 githhhh. All rights reserved.
+//  Created by bin on 12/16/2016.
+//  Copyright (c) 2016 bin. All rights reserved.
 //
 
 @import UIKit;

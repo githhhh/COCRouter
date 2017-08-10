@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>路由说明</key>
+	<dict>
+		<key>lastminuteCityOrContruny</key>
+		<string>z.coc.com/&lt;id&gt;/</string>
+	</dict>
+	<key>路由说明-</key>
+	<dict>
+		<key>gotoZTDetail</key>
+		<array>
+			<string>app.coc.com/zt/&lt;_id_1&gt;/index/&lt;_id_2&gt;/</string>
+		</array>
+	</dict>
+	<key>路由说明--</key>
+	<dict>
+		<key>gotoAskDetail</key>
+		<string>appview.coc.com/newask/ask/ </string>
+	</dict>
+</dict>
+</plist>

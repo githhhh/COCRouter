@@ -1,0 +1,15 @@
+PODS:
+  - Masonry (1.0.2)
+  - RegExCategories (1.0)
+
+DEPENDENCIES:
+  - Masonry
+  - RegExCategories (~> 1.0)
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  RegExCategories: e68befacacd5bda853c88f70ec745cb2d0cfb89c
+
+PODFILE CHECKSUM: 6815dab6ebd9b02f346077d56d8121e07e42f9ba
+
+COCOAPODS: 1.2.1

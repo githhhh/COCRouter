@@ -2,17 +2,34 @@
 //  COCAppDelegate.m
 //  COCRouter
 //
-//  Created by githhhh on 08/10/2017.
+//  Created by githhhh on 06/14/2017.
 //  Copyright (c) 2017 githhhh. All rights reserved.
 //
 
 #import "COCAppDelegate.h"
+#import "COCNavigatorMap.h"
+#import "COCRouter.h"
+#import "RouteFilterHandler.h"
 
 @implementation COCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    /**
+     初始化 url导航映射表
+     */
+    [COCNavigatorMap initialize];
+    
+    /**
+     *  注册路由器 全局唯一的异常处理器 : 路由器会尝试转发异常消息,如果没有注册也不影响使用。
+     */
+    [COCRouter registerFilterClass:[RouteFilterHandler class]];
+
+    
+    
+    
     return YES;
 }
 

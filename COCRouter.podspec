@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/githhhh/COCRouter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'githhhh' => 'bin.tang@qyer.com' }
+  s.author           = { 'githhhh' => 'bin.tang@COCer.com' }
   s.source           = { :git => 'https://github.com/githhhh/COCRouter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
